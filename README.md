@@ -106,6 +106,8 @@ add_action('wp_enqueue_scripts', 'usm_theme_styles');
 
 Это позволило разделить структуру темы на логические части и приблизить её к реальной структуре WordPress-темы.
 
+<img width="864" height="612" alt="Image" src="https://github.com/user-attachments/assets/8dee0244-564d-474c-b1d6-d3e4c4db3765" />
+
 ### 6. Стилизация темы
 
 После создания основных файлов темы были добавлены стили для следующих элементов:
@@ -123,7 +125,7 @@ add_action('wp_enqueue_scripts', 'usm_theme_styles');
 В папку темы был добавлен файл `screenshot.png` размером `1200x900` пикселей. Этот файл используется WordPress для отображения превью темы в панели администратора в разделе «Внешний вид → Темы».
 
 После добавления `screenshot.png` тема стала отображаться с изображением предпросмотра.
-
+<img width="467" height="393" alt="Image" src="https://github.com/user-attachments/assets/c438e80c-0046-44a1-9649-26cffd167e6e" />
 
 ### 8. Активация темы
 
