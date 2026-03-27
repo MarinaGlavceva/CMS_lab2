@@ -21,7 +21,8 @@
 ```php
 define('WP_DEBUG', true);
 ````
-
+<img width="639" height="381" alt="Image" src="https://github.com/user-attachments/assets/244b9912-acce-43c9-8fc8-972cf06f05d1" />
+<img width="574" height="140" alt="Image" src="https://github.com/user-attachments/assets/60d32223-73b1-4a2f-ba74-7e191f3e4e45" />
 Режим отладки нужен для отображения ошибок и предупреждений, которые могут возникать при разработке темы.
 
 ### 2. Создание обязательных файлов темы
@@ -123,6 +124,7 @@ add_action('wp_enqueue_scripts', 'usm_theme_styles');
 
 После добавления `screenshot.png` тема стала отображаться с изображением предпросмотра.
 
+
 ### 8. Активация темы
 
 После создания всех основных файлов тема была активирована в административной панели WordPress через раздел:
@@ -130,6 +132,8 @@ add_action('wp_enqueue_scripts', 'usm_theme_styles');
 `Внешний вид → Темы`
 
 После активации темы сайт начал использовать созданные шаблоны и стили. На главной странице корректно отобразились записи, меню сайта и другие элементы интерфейса.
+
+<img width="954" height="846" alt="Image" src="https://github.com/user-attachments/assets/8425f9f3-da59-49a6-b24f-f644ab07dc3f" />
 
 ## Результат выполнения работы
 
